@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+int a=112;
+int b=205;
+printf("%5d",a);
+printf("\n%-5d",b);
+return 0;
+}
