@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+inti;
+for(i=1;i<=10;printf(" Nalhati Govt. Ploytechnic \n",i++));
+return 0;
+} 
