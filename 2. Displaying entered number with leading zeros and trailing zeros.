@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
   printf("%09.3f\n", 4917.24);
