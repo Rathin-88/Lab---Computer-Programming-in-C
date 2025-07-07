@@ -8,3 +8,32 @@ printf("\n%-5d",b);
 return 0;
 }
 
+------------------------------------------------------------------------
+Format Specifiers:
+
+1️⃣   printf("%5d", a);
+
+      %5d means:
+            Print an integer
+            Reserve 5 spaces total
+            Right-justify the number (default behavior)
+       a = 112 → Output will look like:
+                112
+      (2 spaces before 112, making total width 5)
+------------------------------------------------------------------------
+2️⃣    printf("\n%-5d", b);
+
+       %-5d means:
+                Print an integer
+                Reserve 5 spaces total
+                Left-justify the number (due to -)
+        b = 205 → Output will look like:
+              205  
+       (205 is printed first, then 2 blank spaces after it)
+------------------------------------------------------------------------
+🖥️ Final Output:
+  112
+205  
+✔️ a is right-justified
+✔️ b is left-justified
+------------------------------------------------------------------------
