@@ -9,3 +9,22 @@ int main()
     printf("\nHexadecimal value is (Alphabet in capital letters): %X\n",value);
    return 0;
 }
+
+
+
+
+// ------------------------------------------------------------------------
+#include <stdio.h>
+This line includes the Standard Input Output header file.
+It allows us to use printf() for printing text on the screen.
+------------------------------------------------------------------------
+int main()
+This is the starting point of every C program.
+It tells the computer where to begin running the program.
+
+------------------------------------------------------------------------
+--> %d is used to print the value in decimal (base 10).
+--> %o is used to print the number in octal format. Octal uses digits 0 to 7.
+--> %x is used to print the value in hexadecimal (base 16) using lowercase a–f.
+--> %X does the same, but with capital letters A–F.
+------------------------------------------------------------------------//
