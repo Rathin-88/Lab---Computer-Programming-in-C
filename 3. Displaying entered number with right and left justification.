@@ -7,3 +7,4 @@ printf("%5d",a);
 printf("\n%-5d",b);
 return 0;
 }
+
