@@ -4,3 +4,36 @@ int main()
   printf("%09.3f\n", 4917.24);
   return 0;
 }
+
+
+
+
+// Displays the number with leading and trailing zeros.
+------------------------------------------------------------------------
+Format: %09.3f
+Let’s break it down:
+------------------------------------------------------------------------
+Format Part	  Meaning
+   %	                  Start of format specifier
+   0	                  Fill extra space with leading zeros
+   9	                 Total minimum width (9 characters total)
+   .3	                 Show 3 digits after the decimal point (trailing zeros)
+   f	                 Print as a floating-point number
+------------------------------------------------------------------------
+📌 Step-by-Step Explanation:
+
+1. Original number: 4917.24
+2. After forcing 3 decimal places: 4917.240 → adds 1 trailing zero
+3. Character count so far:
+         4 digits before decimal → 4917
+         1 decimal point → .
+         3 digits after decimal → 240
+         Total = 8 characters
+4. Required width is 9, so 1 leading zero is added → becomes:
+04917.240
+------------------------------------------------------------------------
+🧾 Final Output on Screen:
+04917.240
+✅ Leading Zero: 0 in front (to make total length = 9)
+✅ Trailing Zero: 0 after .24 to make it .240
+------------------------------------------------------------------------ //
